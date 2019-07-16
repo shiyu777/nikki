@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Kyou no dekigoto:</strong>
+  <%= @message.kyou_no_dekigoto %>
+</p>
+
+<p>
+  <strong>Honbun:</strong>
+  <%= @message.honbun %>
+</p>
+
+<%= link_to 'Edit', edit_message_path(@message) %> |
+<%= link_to 'Back', messages_path %>
